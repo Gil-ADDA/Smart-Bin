@@ -1,5 +1,5 @@
 
-# Master Bin
+# Smart Bin
 
 
 # Overview 
@@ -12,16 +12,16 @@ the main component is Arduino uno as a microcontroler that have 14 digital pins.
 For this project i use 6 digital pin 
 
 The pins: 
-One for the servo which is pin 9
-define trigPin2 8
-define echoPin2 7
-#define trigPin1 2
-#define echoPin1 3
-the last pin is for the LED neo Pixel pin 6
+A. servo which is pin 9
+B. define trigPin2 8
+C. define echoPin2 7
+D. #define trigPin1 2
+E. #define echoPin1 3
+F. the last pin is for the LED neo Pixel pin 6
 
 The Libararies : 
-Servo.h
-Adafruit_NeoPixel.h
+1. Servo.h
+2. Adafruit_NeoPixel.h
 
 
 
