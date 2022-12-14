@@ -27,7 +27,7 @@ The Libararies :
 
 
 # Arcitecture 
-![Arcitecture](Smart-Bin/Docs of photosd and videos/Architecture.png)
+ ![Arcitecture](Smart-Bin/Docs of photosd and videos/Architecture.png)
 
 the
 # video demonstrations
