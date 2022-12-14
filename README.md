@@ -27,7 +27,7 @@ The Libararies :
 
 
 # Arcitecture 
- ![Arcitecture](Docs of photosd and videos/Architecture.png)
+ ![arcitecture](Docs of photosd and videos/Architecture.png)
 
 the
 # video demonstrations
