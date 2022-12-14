@@ -1,10 +1,11 @@
 
-# Smart Bin
+# Smart Bin special edition for the Christmas
 
 
 # Overview 
 
 This project build during the course - Making, Designing & Building Connected Sensor
+Goal is to measure the 
 
 # Libararies and define pin 
 
@@ -32,8 +33,18 @@ The Libararies :
 the
 # video demonstrations
 
+# Enclosure Deployment
+On the breadboard everything working fast and the sensor function and flow is perfect. 
+
+However when I start to deploy the sensors on the box the servo cant lift the bin cover with the ultrasonic and the LED attached to it. 
+
+
+
 
 # future features
+1. weight sensor for indoor institutions and offices
+2. Add Nodemcu ESP 8266 
+3. waterprof Enclosure 
 # Reference 
 
 Automatic Trash Bin - https://www.instructables.com/Automatic-Trash-Bin/ - 
