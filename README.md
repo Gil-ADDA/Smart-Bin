@@ -6,8 +6,22 @@
 
 This project build during the course - Making, Designing & Building Connected Sensor
 
+# Libararies and define pin 
 
+the main component is Arduino uno as a microcontroler that have 14 digital pins.
+For this project i use 6 digital pin 
 
+The pins: 
+One for the servo which is pin 9
+define trigPin2 8
+define echoPin2 7
+#define trigPin1 2
+#define echoPin1 3
+the last pin is for the LED neo Pixel pin 6
+
+The Libararies : 
+Servo.h
+Adafruit_NeoPixel.h
 
 
 
