@@ -1,0 +1,137 @@
+
+// pay attention that ultrasonic dosent work with 3.3v
+#include <Servo.h> //to add the Librariy of servo to allow 
+Servo myservo; //is the declaration of using the servo librariy and create the name myservo for my code 
+
+#define trigPin2 8
+#define echoPin2 7
+long distance2; //for the LED
+long duration2;
+
+#define trigPin1 2
+#define echoPin1 3
+long distance1; // for the servo
+long duration1;
+
+
+//String readString;
+int n; //value to write to servo
+
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+#endif
+
+
+#define PIN      6
+#define NUMPIXELS 8
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); //Determines the number of LEDs and Arduino pins.
+
+void setup()
+{
+ pinMode(trigPin2, OUTPUT);
+ pinMode(echoPin2, INPUT);
+ Serial.begin(9600);
+ pixels.begin();//Does the initialisations.
+
+
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+  pinMode(trigPin1, OUTPUT); // Sets the trigPin as an Output
+  pinMode(echoPin1, INPUT); // Sets the echoPin as an Input
+  Serial.begin(9600);
+}
+void loop() {
+  ultra1();
+  myservo.write(180);
+  if (distance1 <= 20){// using if statment to commend an execution of the servo to work when the ultrasonic recognise object within 10 cm
+  myservo.write(0);
+  delay(1000);
+  //myservo.detach();
+
+Serial.print("Servo-Distance in cm: ");
+Serial.println(distance1);
+Serial.print(" LED-Distance in cm: ");
+Serial.println(distance2);
+  delay(1000);
+
+  }
+
+
+digitalWrite(trigPin2, LOW);
+delayMicroseconds(2);
+digitalWrite(trigPin2, HIGH);
+delayMicroseconds(10);
+digitalWrite(trigPin2, LOW);
+
+duration2 = pulseIn(echoPin2, HIGH);
+distance2 = duration2*0.034/2;
+//I add number "2" to the duration and distance because the system contain 2 ultrasonic which duration and distance without the number two after is for the servo and the duration and distance with the number two is for the LED 
+
+if(distance2 <= 15) {
+  pixels.setPixelColor(0, pixels.Color(150, 0, 0)); 
+  pixels.setPixelColor(1, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(2, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(3, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(4, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(5, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(6, pixels.Color(150, 0, 0));
+  pixels.setPixelColor(7, pixels.Color(150, 0, 0));
+  //Defines the LEDs color with the RGB system, after specifying the LED number (from 0 to NUMPIXELS-1). 
+  //If the second ultasonic (inside the bin) met the condition of distance between 15 to 0 Cm the LED will color the strip to red 
+  // the color code taken from the libarary of Adafruit_NeoPixel
+  delay(500);
+}
+else if (distance2 > 16 && distance2 <= 35) { //BLUE for almost full 
+  pixels.setPixelColor(0, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(1, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(2, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(3, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(4, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(5, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(6, pixels.Color(255, 255, 0));
+  pixels.setPixelColor(7, pixels.Color(255, 255, 0));
+delay(100);
+}
+else if (distance2 > 36 && distance2 <= 60) {PURPOL
+  pixels.setPixelColor(0, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(1, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(2, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(3, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(4, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(5, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(6, pixels.Color(0, 255, 0));
+  pixels.setPixelColor(7, pixels.Color(0, 255, 0));
+delay(100);
+}
+else if (distance2 > 4000){2 firts LED on
+pixels.setPixelColor(0, pixels.Color(100, 200, 100));
+pixels.setPixelColor(1, pixels.Color(100, 200, 100));
+
+delay(100);
+
+pixels.show(); 
+}
+}
+// This line function update the colors of the LED relate to the distance variable is greater than 36 and less or equal to 60 
+//this function preferd to be at the end of the loop function for set the colors depend on the distance inside the bin 
+
+void ultra1(){
+  digitalWrite(trigPin1, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin1, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin1, LOW);
+  duration1 = pulseIn(echoPin1, HIGH);
+  distance1 = duration1*0.034/2;
+}
+  void ultra2(){
+  digitalWrite(trigPin2, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin2, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin2, LOW);
+  duration2 = pulseIn(echoPin2, HIGH);
+  distance2 = duration2*0.034/2;
+  }
+
+  
