@@ -70,9 +70,7 @@ However when I start to deploy the sensors on the box the servo cant lift the bi
   <img src="neopixel-stick-logo.png" alt="NeoPixel Stick logo">
 </a>
 
-6. 2 Ultrasonic Ranging Module HC - SR04 <a href="https://www.micropik.com/PDF/HCSR04.pdf">
-  <img src="hc-sr04-logo.png" alt="Ultrasonic Ranging Module HC-SR04 logo">
-</a>
+6. 2 Ultrasonic Ranging Module HC - SR04 <a href="https://www.micropik.com/PDF/HCSR04.pdf"> <img src="hc-sr04-logo.png" alt="Ultrasonic Ranging Module HC-SR04 logo"> </a>
 
 
 
