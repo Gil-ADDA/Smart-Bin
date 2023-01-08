@@ -58,15 +58,21 @@ However when I start to deploy the sensors on the box the servo cant lift the bi
 
 # Reference 
 
-Automatic Trash Bin - https://www.instructables.com/Automatic-Trash-Bin/ - 
-Smart Trash Bin - https://create.arduino.cc/projecthub/4DMakers/smart-trash-bin-425536
+1. Automatic Trash Bin - https://www.instructables.com/Automatic-Trash-Bin/ - 
+2. Smart Trash Bin - https://create.arduino.cc/projecthub/4DMakers/smart-trash-bin-425536
 
-Used components and tools
-Arduino UNO - <a href="https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf">Arduino UNO Datasheet</a>
 
-Servo Motor SG-90
-NeoPixel Stick - 8 x 5050 RGB LED
-2 Ultrasonic Ranging Module HC - SR04
+3. Arduino UNO - <a href="https://www.arduino.cc/en/uploads/Main/Arduino_Uno_Rev3-schematic.pdf">Arduino UNO Datasheet</a>
+
+4. Servo Motor SG-90 <a href="http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf">Servo Motor SG-90 Datasheet</a>
+
+5. NeoPixel Stick - 8 x 5050 RGB LED <a href="https://www.adafruit.com/datasheets/WS2812B.pdf">
+  <img src="neopixel-stick-logo.png" alt="NeoPixel Stick logo">
+</a>
+
+6. 2 Ultrasonic Ranging Module HC - SR04 <a href="https://www.micropik.com/PDF/HCSR04.pdf">
+  <img src="hc-sr04-logo.png" alt="Ultrasonic Ranging Module HC-SR04 logo">
+</a>
 
 
 
