@@ -51,9 +51,9 @@ However when I start to deploy the sensors on the box the servo cant lift the bi
 
 # future features
 1. weight sensor for indoor institutions and offices
-2. Add Nodemcu ESP 8266 
+2. LoRa (Long Range Radio) for monitoring
 3. Waterprof Enclosure
-4. lighting scale
+4. lighting scale with the existing light
 
 
 # Reference 
@@ -68,8 +68,13 @@ However when I start to deploy the sensors on the box the servo cant lift the bi
 
 5. NeoPixel Stick - 8 x 5050 RGB LED <a href="https://www.adafruit.com/datasheets/WS2812B.pdf">NeoPixel Stick Datasheet</a>
 
-
 6. 2 Ultrasonic Ranging Module HC - SR04 <a href="https://www.micropik.com/PDF/HCSR04.pdf">Ultrasonic Ranging Module HC-SR04 Datasheet</a>
+
+
+# Additional: 
+Some possible microcontrollers that could be suitable for a smart bin project include the Arduino UNO, Raspberry Pi, and ESP32. Each of these microcontrollers has its own strengths and weaknesses, so it is important to carefully consider your project requirements before making a decision.
+
+
 
 
 
