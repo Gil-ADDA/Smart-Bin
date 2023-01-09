@@ -1,7 +1,7 @@
 
 // pay attention that ultrasonic dosent work with 3.3v
-#include <Servo.h> //to add the Librariy of servo to allow 
-Servo myservo; //is the declaration of using the servo librariy and create the name myservo for my code 
+#include <Servo.h> //to add the Librariy of servo to allow the servo to function 
+Servo myservo; // The declaration of using the servo librariy and create the name myservo for the code 
 
 #define trigPin2 8
 #define echoPin2 7
