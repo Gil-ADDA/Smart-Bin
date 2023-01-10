@@ -46,7 +46,34 @@ Reference to the datasheet in the reference list.
 <img src="Docs of photosd and videos/female header .png">
 
 <h3>Step By Step Instructions</h3>
+1. Soldering the female header to the LED Neopixel strip
+Connecting the LED Neopixel strip to the Arduino using jumpers
+Once the female header has been attached, take the jumpers and insert them into the female header pins.
+Connect the other end of the jumpers to pin 6 on the Arduino.
 
+2. Connecting the servo
+Take the servo and locate the three wires (power, ground, and signal).
+Connect the power wire to the 5V pin on the Arduino.
+Connect the ground wire to the GND pin on the Arduino.
+Connect the signal wire to pin 9 on the Arduino.
+
+3. Connecting the ultrasonic sensors
+Take the ultrasonic sensors and locate the four wires (power, ground, trigger, and echo).
+Connect the power wire of the first sensor to the 5V pin on the Arduino.
+Connect the ground wire of the first sensor to the GND pin on the Arduino.
+Connect the trigger pin of the first sensor to pin 2 on the Arduino.
+Connect the echo pin of the first sensor to pin 3 on the Arduino.
+Connect the trigger pin of the second sensor to pin 8 on the Arduino.
+Connect the echo pin of the second sensor to pin 7 on the Arduino.
+
+It is also important to note that in the code you should define the trigPin1 and trigPin2 and echoPin1 and echoPin2 as you mentioned, so that the microcontroller knows which pin the sensor is connected to.
+
+
+
+*Please note that due to a lack of GND and 5V pins on the Arduino, a Wago connector was used to close the circuit and supply power to the components. Connect the power wire of the ultrasonic sensors and the LED Neopixel strip to the Wago connector that's connected to the 5V pin and the ground wire to the Wago connector that's connected to the GND pin. This allows for a more compact and efficient setup.
+
+<img src="Docs of photosd and videos/1 On the Breadboard.PNG">
+The photo above shows the system connected and ready for testing before deployment. All components are connected and powered as described in the instructions, double checking the connections and uploading the code to the microcontroller.
 
 
 
