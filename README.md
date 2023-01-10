@@ -45,11 +45,14 @@ Reference to the datasheet in the reference list.
 8. Female headers (for the LED) 
 <img src="Docs of photosd and videos/female header .png">
 
+<h3>Step By Step Instructions</h3>
+
 
 
 
 # Arcitecture 
- ![arcitecture](Docs of photosd and videos/Architecture.png)
+
+ <img src="Docs of photosd and videos/Architecture.png">
 
 
 # video demonstrations
