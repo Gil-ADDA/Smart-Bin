@@ -48,6 +48,7 @@ Reference to the datasheet in the reference list.
 <h3>Step By Step Instructions</h3>
 
 1. Soldering the female header to the LED Neopixel strip
+<img src="Docs of photosd and videos/LED with female header.PNG">
 Connecting the LED Neopixel strip to the Arduino using jumpers
 Once the female header has been attached, take the jumpers and insert them into the female header pins.
 Connect the other end of the jumpers to pin 6 on the Arduino.
