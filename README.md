@@ -91,7 +91,6 @@ The photo above shows the inside of the bin before it has been wrapped. The circ
 # video demonstrations
 <a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
 <img src="link_to_video_thumbnail" alt="The first video" width="800" height="600">
-<p>The first video</p>
 </a>
 
 
