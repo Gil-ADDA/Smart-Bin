@@ -1,6 +1,6 @@
 
 # Smart Bin
-![The product](Docs of photosd and videos/Xmas version special edition.PNG)
+! [The product](Docs of photosd and videos/Xmas version special edition.PNG)
 
 #Overview
 The smart bin project is an Arduino-based system that uses ultrasonic sensors and an LED to monitor and respond to the amount of waste in a bin. The first ultrasonic sensor measures the distance from the user and activates a servo to open the bin when the distance is less than 20 cm. The second ultrasonic sensor measures the amount of trash in the bin and the LED displays this information to the user by changing color. The system encourages community engagement with waste management issues and helps to optimize waste management strategies by providing real-time data about the amount of waste being generated. This project was completed as part of the university course "Making, Designing & Building Connected Sensor Systems" in 2022/2023. The project utilizes C++ programming and the Arduino IDE, as well as a variety of hardware components including ultrasonic sensors, a servo, and an LED. All components of the bin and enclosure are made from recycled materials.
