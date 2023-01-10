@@ -97,14 +97,10 @@ However when I start to deploy the sensors on the box the servo cant lift the bi
 <img src="link_to_video_thumbnail" alt="The first video - Watch a demo of a smart bin in action" width="800" height="600">
 </a>
 
-:film_camera: <a href="https://www.youtube.com/watch?v=t_TQdOSBktM" target="_blank">
+':film_camera:' <a href="https://www.youtube.com/watch?v=t_TQdOSBktM" target="_blank">
 <img src="link_to_second_video_thumbnail" alt="The second video" width="800" height="600">
 
 </a>
-
-
-
-
 
 
 
