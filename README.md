@@ -75,10 +75,12 @@ It is also important to note that in the code you should define the trigPin1 and
 *Please note that due to a lack of GND and 5V pins on the Arduino, a Wago connector was used to close the circuit and supply power to the components. Connect the power wire of the ultrasonic sensors and the LED Neopixel strip to the Wago connector that's connected to the 5V pin and the ground wire to the Wago connector that's connected to the GND pin. This allows for a more compact and efficient setup.
 
 <img src="Docs of photosd and videos/1 On the Breadboard.PNG">
+
 The photo above shows the system connected and ready for testing before deployment. All components are connected and powered as described in the instructions, double checking the connections and uploading the code to the microcontroller.
 
 
 <img src="Docs of photosd and videos/3 Ultra and Wego.PNG"> 
+
 The photo above shows the inside of the bin before it has been wrapped. The circuit board and components, including the LED Neopixel strip, ultrasonic sensors, and servo, are clearly visible. The jumpers have been organized in a tidy manner, to ensure a stable and secure connection between the circuit board and the components.  Additionally, a clipboard is used to cover and protect the wires, making the system more astatically pleasing and also protecting them from any external damage.
 
 # Arcitecture 
