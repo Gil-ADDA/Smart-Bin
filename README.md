@@ -89,6 +89,7 @@ The photo above shows the inside of the bin before it has been wrapped. The circ
 
 
 # video demonstrations
+<a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
 
 # Enclosure Deployment
 On the breadboard everything working fast and the sensor function and flow is perfect. 
