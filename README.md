@@ -1,6 +1,9 @@
 
 # Smart Bin
+<img src="Docs of photosd and videos/smart bin photo.jpeg">
+
 <img src="Docs of photosd and videos/Xmas version special edition.PNG" alt="The final bin">
+
 
 
 #Overview
