@@ -38,6 +38,12 @@ Reference to the datasheet in the reference list.
 2. Servo Motor SG-90
 3. NeoPixel Stick - 8 x 5050 RGB LED
 4. 2 Ultrasonic Ranging Module HC - SR04
+5. Wago
+<img src="Docs of photosd and videos/4 Wago.PNG">
+7. Jumpers (all types)
+<img src="Docs of photosd and videos/electronic-jumper-wire-makers-collection-260nw-1098082193 Small.jpeg">
+8. Female headers (for the LED) 
+<img src="Docs of photosd and videos/female header .png">
 
 
 
