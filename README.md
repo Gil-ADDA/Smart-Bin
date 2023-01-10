@@ -88,9 +88,14 @@ The photo above shows the inside of the bin before it has been wrapped. The circ
  <img src="Docs of photosd and videos/Architecture.png">
 
 
-# video demonstrations
-<a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
+# Video demonstrations
+1. <a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
 <img src="link_to_video_thumbnail" alt="The first video" width="800" height="600">
+</a>
+
+2. <a href="https://www.youtube.com/watch?v=t_TQdOSBktM" target="_blank">
+<img src="link_to_second_video_thumbnail" alt="second_video_name" width="800" height="600">
+
 </a>
 
 
