@@ -30,7 +30,8 @@ The Libararies :
 1. Servo.h
 2. Adafruit_NeoPixel.h
 
-# Used components and tools
+<h1>Building</h1>
+<h2>Used components and tools</h2>
 Reference to the datasheet in the reference list.
 
 1. Arduino UNO 
