@@ -78,6 +78,8 @@ It is also important to note that in the code you should define the trigPin1 and
 The photo above shows the system connected and ready for testing before deployment. All components are connected and powered as described in the instructions, double checking the connections and uploading the code to the microcontroller.
 
 
+<img src="Docs of photosd and videos/3 Ultra and Wego.PNG"> 
+The photo above shows the inside of the bin before it has been wrapped. The circuit board and components, including the LED Neopixel strip, ultrasonic sensors, and servo, are clearly visible. The jumpers have been organized in a tidy manner, to ensure a stable and secure connection between the circuit board and the components.  Additionally, a clipboard is used to cover and protect the wires, making the system more astatically pleasing and also protecting them from any external damage.
 
 # Arcitecture 
 
