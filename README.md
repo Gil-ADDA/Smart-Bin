@@ -83,31 +83,32 @@ The photo above shows the system connected and ready for testing before deployme
 
 The photo above shows the inside of the bin before it has been wrapped. The circuit board and components, including the LED Neopixel strip, ultrasonic sensors, and servo, are clearly visible. The jumpers have been organized in a tidy manner, to ensure a stable and secure connection between the circuit board and the components.  Additionally, a clipboard is used to cover and protect the wires, making the system more astatically pleasing and also protecting them from any external damage.
 
+<h4>"Enclosure Deployment"</h4>
+On the breadboard everything working fast and the sensor function and flow is perfect. 
+However when I start to deploy the sensors on the box the servo cant lift the bin cover with the ultrasonic and the LED attached to it. 
+
 # Arcitecture 
 
  <img src="Docs of photosd and videos/Architecture.png">
 
 
 # Video demonstrations
-1. <a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
+<a href="https://www.youtube.com/watch?v=d6Y2uEtxD80" target="_blank">
 <img src="link_to_video_thumbnail" alt="The first video" width="800" height="600">
 </a>
 
-2. <a href="https://www.youtube.com/watch?v=t_TQdOSBktM" target="_blank">
-<img src="link_to_second_video_thumbnail" alt="second_video_name" width="800" height="600">
+<a href="https://www.youtube.com/watch?v=t_TQdOSBktM" target="_blank">
+<img src="link_to_second_video_thumbnail" alt="The second video" width="800" height="600">
 
 </a>
 
 
-# Enclosure Deployment
-On the breadboard everything working fast and the sensor function and flow is perfect. 
-
-However when I start to deploy the sensors on the box the servo cant lift the bin cover with the ultrasonic and the LED attached to it. 
 
 
 
 
-# future features
+
+# Future features
 1. weight sensor for indoor institutions and offices
 2. LoRa (Long Range Radio) for monitoring
 3. Waterprof Enclosure
